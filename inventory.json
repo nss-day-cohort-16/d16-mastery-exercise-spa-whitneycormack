@@ -1,0 +1,32 @@
+{
+  "cars": [
+    {
+      "make": "Jeep",
+      "model": "Wrangler",
+      "year": "2016",
+      "price": "30000",
+      "description": "Brand spankin new!"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model X",
+      "year": "2017",
+      "price": "40000",
+      "description": "All-wheel drive and a 100 kWh battery providing 289 miles of range, Model X is the SUV of the future"
+    },
+    {
+      "make": "Porsche",
+      "model": "Cayenne",
+      "year": "2006",
+      "price": "10000",
+      "description": "Great condition, 10 year warranty"
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Type 2: Bus",
+      "year": "1976",
+      "price": "10000",
+      "description": "Nostalgic and in immaculate shape, perfect for road trips!"
+    }
+  ]
+}
