@@ -1,3 +1,7 @@
-#car-card {
+.car-card {
   border: 1px solid black;
+}
+
+.yellow {
+  background-color: yellow;
 }

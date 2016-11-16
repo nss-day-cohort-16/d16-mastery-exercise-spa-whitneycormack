@@ -1,28 +1,27 @@
-console.log("hello carLot js here" );
+"use strict";
 
-
+// this iife gets the info
 var CarLot = (function () {
   var inventory = [];
 
   return {
     getInventory: function () {
       return inventory;
-      console.log("inventory", inventory );
     },
 
-    loadInventory: function (callback) {
+    loadInventory: function (populatePageFromQuiz) {
       var inventoryLoader = new XMLHttpRequest();
         inventoryLoader.open("GET", "inventory.json");
         inventoryLoader.send();
 
       inventoryLoader.addEventListener("load", function () {
         inventory = JSON.parse(event.target.responseText).cars; /* <-why .cars?*/
-        callback(inventory);
+        populatePageFromQuiz(inventory);
 
+      console.log("inventory", inventory );
       });
     }
-  };
-
-})();
+  }
+})(CarLot || {});
 
 
