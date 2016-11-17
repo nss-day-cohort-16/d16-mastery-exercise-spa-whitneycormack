@@ -1,7 +1,11 @@
-.car-card {
+.carCards {
   border: 1px solid black;
+  height: 300px;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
-.yellow {
-  background-color: yellow;
+.borderColor {
+  border: 5px solid black;
+  background-color: #4286F4;
 }
